@@ -177,14 +177,18 @@ h5 {
     color: blue;
     text-decoration: none;
     
+    
 }
-.footer  {
-    list-style: none;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-bottom: 25px;
+footer  {
+  list-style: none;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 
 
     
@@ -192,6 +196,7 @@ h5 {
 #footer ul {
     padding: 0px;
     list-style: none;
+    
     
 }
 
@@ -249,6 +254,24 @@ h5 {
     flex-direction: column;
     align-items: center;
     width: 370px;
+    
+}
+#structure > div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+#team > div {
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.map-frame {
+    height: 375px;
+    width: 60%;
     
 }
 
