@@ -274,5 +274,37 @@ footer  {
     width: 60%;
     
 }
+.slot-form-container {
+    width: 40%;
+    margin-top: 18px;
+    margin-bottom: 0;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.2em;
+    text-align: center;
 
+    
+}
+.slot-form-container label {
+    line-height: 20px;
+    margin: 3px;
+    
+    
+}
+.slot-form-container input,
+.slot-form-container select {
+    height: 30px;
+    outline: none;
+    padding: 3px;
+    width: 100%;
+    
+}
+.slot-form-container button {
+    border: 1px solid black;
+    color: black;
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
 
+    
+}
